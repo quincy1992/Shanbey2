@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shanbay</string>
+    <string name="action_search">notification</string>
+    <string name="app_titlename">扇贝单词</string>
+</resources>

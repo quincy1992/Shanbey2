@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroup_hp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_recite"
+            android:checked="true"
+            android:text="背单词"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_progress"
+            android:text="进度"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_word_db"
+            android:text="词库"
+            style="@style/style_RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rb_recommend"
+            android:text="推荐"
+            style="@style/style_RadioButton" />
+
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/radioGroup_hp"/>
+
+</RelativeLayout>

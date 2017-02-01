@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kinstalk.shanbay.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_homepage"
+            android:checked="true"
+            android:text="扇贝单词"
+            android:drawableTop="@drawable/rb_homepage_selector"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_discovery"
+            android:text="发现"
+            android:drawableTop="@drawable/rb_discovery_selector"
+            style="@style/style_RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:text="我的"
+            android:drawableTop="@drawable/rb_me_selector"
+            style="@style/style_RadioButton" />
+
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/scrollPages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/radioGroup"
+        />
+</RelativeLayout>
