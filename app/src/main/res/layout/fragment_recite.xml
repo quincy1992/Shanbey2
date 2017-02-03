@@ -8,4 +8,22 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/view_pager"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/Start_Word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/start"
+            android:background="@drawable/start"/>
+
+    </RelativeLayout>
+
+
 </RelativeLayout>

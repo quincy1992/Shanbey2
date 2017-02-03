@@ -1,4 +1,4 @@
-package com.quincy.shanbay;
+package com.quincy.shanbay.activity;
 
 import android.app.ActionBar;
 import android.support.v4.app.Fragment;

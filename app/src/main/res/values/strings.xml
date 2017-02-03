@@ -2,4 +2,7 @@
     <string name="app_name">Shanbay</string>
     <string name="action_search">notification</string>
     <string name="app_titlename">扇贝单词</string>
+    <string name="start">开始</string>
+    <string name="sentence">例句</string>
+    <string name="budget">budget</string>
 </resources>
